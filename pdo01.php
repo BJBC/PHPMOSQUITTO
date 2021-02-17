@@ -1,6 +1,7 @@
 <?php
 
-//$client = new Mosquitto\Client();
+//CRIAR IMAGEM DO SERVIDOR AWS
+//https://www.youtube.com/watch?v=yREIVJWRr7o
 
 //USANDO PDO	
 $servername = "localhost"; $username = "root";

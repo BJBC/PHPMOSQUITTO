@@ -46,14 +46,14 @@ if ($conn->connect_error){;
     $newnome = "Fazenda Nova Cruz";
     $stmt->execute();
 
-    $data = array();
+    $data = array();//criando um array
 
     $result = $conn->query("SELECT * FROM $table");
     while ($row = $result->fetch_assoc()) {
     	
     //while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
     	//var_dump($row);
-    	
+
     	array_push($data,$row);//gerar um json
     }
 
